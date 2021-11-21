@@ -5,7 +5,7 @@ const config: DenonConfig = {
     start: {
       cmd: "deno run server.ts",
       desc: "run my server.ts file",
-      allow: ["net","env","read"],
+      allow: ["net","env","read","write"],
     },
   },
   watcher: {
